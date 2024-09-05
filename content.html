@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content - Endangered Sea Animals</title>
+    <style>
+        @font-face {
+            font-family: 'Wedges';
+            src: url('Wedges.ttf') format('truetype'); /* Ensure this path is correct */
+        }
+
+        @font-face {
+            font-family: 'LuckiestGuy';
+            src: url('LuckiestGuy-Regular.ttf') format('truetype'); /* Path for LuckiestGuy font */
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            color: #333;
+        }
+
+        body {
+            background-image: url('content.jpg'); /* Ensure this path is correct */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-family: 'Wedges', sans-serif; /* Use the correct font family */
+            font-size: 5vw; /* Adjusted font size */
+            color: #333366;
+            margin-bottom: 2.0em; /* Keep the space between title and content list */
+            margin-top: 0; /* Remove top margin */
+            text-align: center;
+        }
+
+        .content-list {
+            font-family: 'Wedges', sans-serif;
+            font-size: 2.5vw;
+            color: #333366;
+            list-style: none;
+            padding: 0;
+            margin: 0 auto; /* Center the list */
+            width: fit-content; /* Adjust width to fit content */
+        }
+
+        .content-list li {
+            margin: 0.05em 0; /* Standard margin for list items */
+        }
+
+        /* Target the first list item (TURTLE) specifically */
+        .content-list li:first-child {
+            margin-top: -3em; /* Bring the first item (TURTLE) closer to the title */
+        }
+
+        .content-list a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .content-list a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>CONTENT</h1>
+    <ul class="content-list">
+        <li><a href="turtle.html">TURTLE</a></li>
+        <li><a href="whale.html">BLUE WHALE</a></li>
+        <li><a href="dolphin.html">DOLPHIN</a></li>
+        <li><a href="killer_whale.html">KILLER WHALE</a></li>
+        <li><a href="shark.html">SHARK</a></li>
+        <li><a href="coral.html">CORAL</a></li>
+        <li><a href="vaquita.html">VAQUITA</a></li>
+        <li><a href="finless_porpoise.html">FINLESS PORPOISE</a></li>
+        <li><a href="manatees.html">MANATEES</a></li>
+        <li><a href="eelgrass.html">EELGRASS</a></li>
+        <li><a href="napoleon_wrasse.html">NAPOLEON WRASSE</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napolean Wrasse - Endangered Sea Animals</title>
+    <style>
+        @font-face {
+            font-family: 'Wedges';
+            src: url('Wedges.ttf') format('truetype'); /* Ensure the path to Wedges font is correct */
+        }
+
+        @font-face {
+            font-family: 'LuckiestGuy';
+            src: url('LuckiestGuy-Regular.ttf') format('truetype'); /* Ensure this path is correct */
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            font-family: 'LuckiestGuy', sans-serif;
+            overflow: hidden; /* Prevent page scrolling */
+        }
+
+        body {
+            background-image: url('napoleon_wrasse.jpg'); /* Ensure this path is correct */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Align the content higher on the page */
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding-top: 2%; /* Move content higher */
+        }
+
+        h1 {
+            font-family: 'Wedges', sans-serif; /* Apply Wedges font to the title */
+            font-size: 6vw; /* Adjust title size to fit the layout better */
+            color: #333366; /* Dark blue color */
+            margin-top: 0.2em; /* Reduce top margin for title */
+            margin-bottom: 0.2em; /* Reduce bottom margin for title */
+            letter-spacing: 2px;
+        }
+
+        .content {
+            font-family:'LuckiestGuy', sans-serif; /* Applying LuckiestGuy font for content */
+            width: 60%; /* Control the width for readability */
+            font-size: 2.3vw; /* Increased font size */
+            line-height: 1.5em; /* Increase line spacing for readability */
+            color: black;
+            background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+            padding: 1.5em; /* Add padding inside the box */
+            border-radius: 10px; /* Slightly rounded corners */
+        }
+
+        /* Style for navigation buttons */
+        .navigation {
+            position: absolute;
+            top: 2%;
+            right: 2%; /* Align navigation to the right */
+            display: flex;
+            justify-content: space-between;
+            width: 13%; /* Adjusted width to bring buttons closer */
+        }
+
+        .navigation a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5vw; /* Adjusted font size for buttons */
+            padding: 0.5em;
+            border-radius: 50%;
+            background-color: #4A4A72; /* Lighter dark blue for background */
+            text-align: center;
+            width: 40px; /* Adjusted button size */
+            height: 40px; /* Adjusted button size */
+            display: inline-block;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+            transition: background-color 0.3s, transform 0.3s; /* Add smooth transition effects */
+            margin: 0 5px; /* Reduced space between buttons */
+        }
+
+        .navigation a:hover {
+            background-color: #333366; /* Darker hover effect */
+            transform: scale(1.1); /* Slightly enlarge button on hover */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>NAPOLEAN WRASSE</h1>
+    <div class="content">
+        <p>
+            The Napoleon wrasse is endangered due to overfishing, particularly for the live reef fish trade where it is sought after for its large size and striking appearance. Additionally, habitat loss from coral reef destruction and degradation impacts their living conditions. Climate change exacerbates these threats by causing coral bleaching and altering reef ecosystems, further affecting the Napoleon wrasse’s survival
+		</p>
+    </div>
+
+    <!-- Navigation buttons -->
+    <div class="navigation">
+        <!-- Left arrow for previous page -->
+        <a href="eelgrass.html">&#8592;</a>
+
+        <!-- Home button in the center -->
+        <a href="content.html">&#8962;</a>
+
+        <!-- Right arrow for next page -->
+        <a href="turtle.html">&#8594;</a>
+    </div>
+</body>
+</html>
